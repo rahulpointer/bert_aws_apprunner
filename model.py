@@ -36,4 +36,4 @@ async def predict_text(request: Request):
 #Starts from here the main function.
 if __name__ == "__main__":
     #run -- filename.app object , localhost, port, reload=True means it reloads everytime the file is updated.
-    uvicorn.run("main:app", host='0.0.0.0', port=8080, reload=True, debug=True)
+    uvicorn.run("main:app", host='0.0.0.0', port=8501, reload=True, debug=True)
